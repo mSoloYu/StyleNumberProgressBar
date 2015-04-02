@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress" format="integer"/>
+
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+
+        <attr name="progress_reached_bar_size" format="dimension"/>
+        <attr name="progress_unreached_bar_size" format="dimension"/>
+
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+
+        <attr name="progress_text_offset" format="dimension"/>
+
+        <attr name="progress_timeline" format="string" />
+        <attr name="progress_text" format="string" />
+
+        <attr name="progress_shape" format="enum">
+            <enum name="horizontal_default" value="0" />
+            <enum name="vertical_default" value="1" />
+            <enum name="horizontal_timeline" value="2" />
+            <enum name="vertical_timeline" value="3" />
+            <enum name="pie_default" value="4" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>
